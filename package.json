@@ -1,0 +1,13 @@
+{
+  "name": "votex",
+  "version": "1.0.0",
+  "description": "Decentralized voting dApp with Truffle and Web3.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "migrate:dev": "truffle migrate --reset --network development"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
